@@ -1,0 +1,64 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title About page
+    link(rel="icon", type="image/png", href='/images/android-chrome-192x192.png')
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css", rel="stylesheet")
+    style.
+      /* Custom styles */
+      body {
+        background-color: rgb(52, 175, 192);
+        font-family: 'Raleway', sans-serif;
+        color: #f2f2f2; /* Light text color */
+      }
+      .navbar-custom {
+        background-color: #344ec0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .navbar-custom .navbar-brand {
+        color: #ffffff;
+        font-size: 24px;
+        font-family: 'Pacifico', cursive;
+      }
+      .navbar-custom .nav-link {
+        color: #ffffff;
+        font-size: 16px;
+        transition: color 0.3s;
+      }
+      .navbar-custom .nav-link:hover {
+        color: #344ec0; 
+      }
+  body
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      .container
+        .navbar-brand
+          a.logo(href='#') sports management
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        .collapse.navbar-collapse#navbarNav
+          ul.navbar-nav.ml-auto
+            li.nav-item
+              a.nav-link(href='/') Home
+            li.nav-item
+              a.nav-link(href='/AboutUs') AboutUs
+            li.nav-item
+              a.nav-link(href='/contact') Contact
+          .search-box.navbar-nav
+            form.form-inline.my-2.my-lg-0
+              input.form-control(type='text', placeholder='Search')
+              button.btn.btn-outline-light(type='submit')
+                i.fa.fa-search
+
+    main.container.content
+      .jumbotron.jumbotron-fluid.bg-primary.text-white.py-0
+        .container.text-center
+          h1.display-4 ABOUT PAGE
+     header
+      h1 About Us
+      container
+       .article
+        p Welcome to sports management We are a passionate team of weather enthusiasts who are dedicated to providing you with accurate and up-to-date weather information from around the world.
+        Sport management is the field of business dealing with sports and recreation. Sports management involves any combination of skills that correspond with planning, organizing, directing, controlling, budgeting, leading, or evaluating of any organization or business within the sports field. The field of sport management has its origins in physical education departments. The discipline has evolved to incorporate history and sociology
+    footer
